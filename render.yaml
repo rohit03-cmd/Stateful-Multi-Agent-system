@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: stateful-multi-agent-system
+    runtime: docker
+    plan: free
+    region: oregon
+    branch: main
+    healthCheckPath: /health
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: DATABASE_URL
+        sync: false

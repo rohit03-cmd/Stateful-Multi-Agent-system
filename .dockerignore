@@ -1,0 +1,14 @@
+.git/
+.github/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+.env.*
+.vscode/
+.idea/
+main.app
